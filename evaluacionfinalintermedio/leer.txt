@@ -1,0 +1,26 @@
+nombre de la base de datos: phpintermedio
+dni: 17658932 clave dm5456
+dni: 20546832 clave fg8965
+
+
+Consigna
+La evaluación está basada en las Evaluaciones de las Unidades 2 y 3 - Módulo 2.
+
+El archivo mostrar_contenido.php deberá tener una botonera que permita realizar, finalizar y ver pedidos. Las opciones serán: "Realizar pedido", "Ver mis pedidos", "Finalizar pedidos".
+
+En el archivo realizar_pedidos.php:
+
+Desarrollar un formulario que permita realizar un pedido. El mismo deberá tener al menos 4 items y deberá incluir una imagen.
+Estos datos se enviaran al archivo cargar_pedido.php que deberá verificar los datos y cargarlos a una tabla. La tabla tendrá una opción "estado" en donde inicialmente se cargara como "procesando".
+En el archivo ver_pedidos.php:
+
+Se deberán mostrar los pedidos realizados pendientes de entrega.
+Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor del campo "estado" de "procesando" a "finalizado".
+En el archivo finalizar_pedidos.php:
+
+Se deberán listar los pedidos finalizados.
+Para acceder a todas las secciones se debe ingresar como cliente (verificar session).
+
+Forma de entrega: Se deberá entregar una carpeta comprimida con todos los archivos necesarios para verificar lo pedido (no olvidar el archivo .sql con la tabla).
+
+Datos archivo de conexión: ("localhost", "root", "", "phpintermedio")
